@@ -2,10 +2,11 @@
 // a = 2 b = 10 -> max = 10;
 // a = -9 b = -3 -> max = -3;
 
-using System.ComponentModel.DataAnnotations;
+Console.WriteLine("Enter first number: ");
+int a = int.Parse(Console.ReadLine());
 
-int a = -9;
-int b = -3;
+Console.WriteLine("Enter second number: ");
+int b = int.Parse(Console.ReadLine());
 
 if (a > b)
 {
